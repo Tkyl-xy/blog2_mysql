@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Display(models.Model):
+
     class Meta:
         #这个是创建数据库表
         db_table = 'own'
